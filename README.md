@@ -1,14 +1,15 @@
-# Financial Data Analysis
+# Financial Analysis Project
 
-This project includes an analysis of the S&P 500 and NASDAQ closing prices, with a 7-day moving average and exponential moving average (EMA).
+## Files
+- `financial_analysis.R`: The R script for data analysis and visualization.
+- `cleaned_financial_regression.csv`: The cleaned and processed dataset.
+- `interactive_financial_plot.html`: Interactive plot comparing S&P 500 and NASDAQ data.
 
-## Files:
-- `financial_regression.csv`: The dataset used for the analysis.
-- `financial_analysis.R`: R script that contains the code for data analysis, calculation of moving averages, and plotting.
-- `interactive_financial_plot.html`: Interactive HTML plot that visualizes the S&P 500, NASDAQ closing prices, and 7-day moving averages.
+## Instructions
+1. Load the dataset using the `financial_analysis.R` script.
+2. View the interactive plot in any web browser by opening `interactive_financial_plot.html`.
+3. Review the cleaned dataset in `cleaned_financial_regression.csv`.
 
-## How to View the Plot:
-- Open `interactive_financial_plot.html` in any modern web browser to view the interactive chart.
-
-## Insights:
-- The analysis shows trends in the S&P 500 and NASDAQ over time, with the added context of the 7-day moving averages for better trend analysis.
+## Requirements
+- R version 4.4.2 or higher
+- Required libraries: `readr`, `dplyr`, `plotly`, `ggplot2`, `htmlwidgets`, `zoo`
